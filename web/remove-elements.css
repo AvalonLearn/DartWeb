@@ -1,0 +1,64 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+    margin: 15px;
+    color: black;
+}
+
+h2 {
+    color: black;
+}
+
+#to-do-input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 5px 0px 5px 5px;
+    width: 100%;
+    border: 1px solid silver;
+    background-color: white;
+}
+
+#to-do-list {
+    padding: 0;
+    margin: 0;
+    list-style-position: inside;
+}
+
+#to-do-list li {
+    padding: 5px 0px 5px 5px;
+    border-bottom: 1px dotted silver;
+}
+
+#to-do-list li:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+#delete-all {
+    margin-top: 8px;
+    background-color: #f8f8f8;
+    border: 1px dotted #ccc;
+    border-radius: 1em;
+    float: right;
+}
+
+#delete-all:hover {
+    background-color: #ddd;
+}
+
+#add-button {
+    margin-top: 8px;
+    background-color: #f8f8f8;
+    border: 1px dotted #ccc;
+    border-radius: 1em;
+    float: left;
+}
+
+#add-button:hover {
+    background-color: #ddd;
+}
+
+#home{
+    text-align: center;
+}
