@@ -17,10 +17,10 @@ Future<void> makeRequest(Event _) async {
   const testurl = 'https://dart.cn/f/portmanteaux.json';
 
   try {
-    final jsonString = await HttpRequest.getString(path);
+    final jsonString = await HttpRequest.getString(testurl);
     processResponse(jsonString);
   } catch (e) {
-    print("Couldn't open $path");
+    print("Couldn't open $testurl");
     wordList.children.add(LIElement()..text = 'Request failed.');
   }
 }
